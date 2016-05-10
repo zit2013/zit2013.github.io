@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+   <title>FT中文网正文页面练习</title>
+    <meta charset='utf-8'>
+   
+    
+    <style>
+   
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+    body {
+    background-color:yellow;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*网页居中容器样式设定*/
+
+#wrap {
+    margin: 0 auto;
+    height: 90px;
+    width: 970px;
+}
+
+
+/*顶部通栏广告样式设定*/
+
+.top-ad {
++    margin-bottom: 10px;
++}
+
+    margin-top: 3px;
+
+/*顶部导航条样式设定*/
+
+#nav {
+    border-bottom: 10px #9E2F50 solid;
+    padding-bottom: 10px;
+}
+
+#nav p {
+    color: #A7A59B;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#nav img {
+    display: block;
+    width: 172px;
+    height: 36px;
+    float: left;
+}
+
+#nav div:last-child {
+    /*background-color: red;*/
+    float: right;
+}
+
+#nav div:last-child p {
+    text-align: right;
+}
+
+#nav h1 {
+    font-family: simhei;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+   width: 150px;
+   clear:both;
+        anmation: run  ease-in-out 9s infinite;
+   -moz-animation: run  ease-in-out 9s infinite ;    
+-webkit-animation: run  ease-in-out 9s infinite;    
+-ms-animation: run  ease-in-out 9s infinite;    
+
+     -o-animation: run  ease-in-out 9s infinite;}
+     
+
+
+#nav p a {
+    color: #4D8BB8;
+    text-decoration: none;
+}
+
+#nav form p {
+    float: left;
+}
+
+.menu ul {
+    background-color: lightgray;
+margin:0;
+padding:0;}
+
+
+.menu li {
+    display: block;
+    float: left;
+    width: 95px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    border-right:1px solid #666666;
+    float: left;list-style: none;
+border-top:1px solid #666666;
+border-left:1px solid #666666;
+border-bottom:1px solid #666666;
+    width: 95px;
+background: olive;
+}
+
+
+.menu a {
+    color: black;
+    /*display: block;*/
+    text-decoration: none;
+    padding: 1px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #A7A59B;
+    border: 1px #A7A59B solid;
+    border-radius: 5px;
+}
+
+
+/*主体部分样式*/
+
+.left {
+    width: 620px;
+    float: left;
+    border-right: 1px #F6E9D8 solid;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.aside {
+    width: 339px;
+    float: left;
+}
+
+.published-time {
+   color: #9E2F50;
+    margin: 18px 0;
+    font-weight: bold;
+}
+
+.left h1 {
+    font-size: 25px;
+    font-family: "Microsoft Yahei", "monospace";
+    font-weight: bold;
+   margin-bottom: 15px;
+}
+
+.author {
+    color: #A7A59B;
+   font-size: 17px;
+   font-weight: bold;
+}
+
+.bdsharebuttonbox {
+    float: right;
+}
+
+.content p {
+    text-indent: 2em;
+    font-size: 17px;
+    line-height: 1.5;
+   margin: 8px 0;
+}
+
+.content .first-p {
+    text-indent: 0;
+}
+
+.first-p:first-letter {
+    color: block;
+    font-size: 48px;
+    display: block;
+    float: left;
+    margin: 0 8px 8px 0;
+}
+
+.content p.img {
+    text-align: center;
+    text-indent: 0;
+}
+.aside-ad {
+    width: 320px;
+   height: 270px;
+    background-color: gray;
+    padding-top: 10px;
+   position: relative;
+   resize: vertical;
+    overflow: auto;
+    text-align: center;
+}
+
+.aside-ad img {
+    display: block;
+    position: absolute;
+    
+    resize: vertical;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.aside-ad img {transform: rotate(0 0);}
+
+.aside-ad img:hover{transform: rotate(720deg); }
+.letter{clear: both;
+margin: 0 1px 1px;
+border-top: 8px solid orange;
+overflow: hidden;}
+    
+ ol{list-style-type: li;
+     list-style-position: inside;
+     line-height: 32px;
+     text-align: center;}
+     .more-topics {
+    float: right;
+    font-size: 14px;}
+  #footer ul li a {
+    color: red;
+    margin: 0 0 0 .20em;
+    font-size: 14px;
+    line-height: 1;
+    padding:0 0 0 10em;
+}  #footer span {
+    color: #999;
+    font-size: 14px;
+    line-height: 1;
+}
+
+
+
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div id="wrap">
+        <div class="top-ad"><img src="tp3.jpg" alt="广告"></div>
+       <div id="nav" class="clearfix">
+            <div>
+                <p>2016年4月26日 发布</p>
+               <img src="logoHD.gif" alt="ft中文网标记"><br/>
+               <br/>>
+                <h1>NBA专栏</h1>
+            </div>
+            <div>
+                <p>
+                    <span><a href="#">新手指南</a></span>                    <span>登录</span>
+                    <span>注册</span>
+                </p>
+                <form action="#">
+                    <p>
+                        <input type="text" name="" id="">
+                    </p>
+                    <p>
+                        <input type="radio" name="文章" id="">文章</p>
+                    <p>
+                        <input type="radio" name="日期" id="" checked>日期</p>
+                    <p>
+                        <input type="submit" value="搜索">
+                    </p>
+                </form>
+           </div>
+        </div>
+        <div class="menu">
+            <ul class="clearfix" id="nn">
+                <li style="left:auto">
+                <a href="#">首页</a>
+                     </li>
+                <li><a href="#">中国</a></li>
+                <li><a href="#">勇士队</a></li>
+                <li><a href="#">库里</a></li>
+                <li><a href="#">NBA</a></li>
+                <li><a href="#">三分</a></li>
+                <li><a href="#">专栏球评</a></li>
+                <li><a href="#">管理</a></li>
+                <li><a href="#">集锦</a></li>
+                <li><a href="#">视频</a></li>
+            </ul>
+        </div>
+        <div id="main">
+            <div class="left">
+                <div class="published-time">2016年5月2日 19：30</div>
+                <h1>当科比遇上VR！ 那一句“曼走”就如在你耳边</h1>
+                <p class="author">新浪体育 4月14日 洛杉矶报道</p>
+                <div class="clearfix">
+                    <div class="bdsharebuttonbox">
+                        <a href="#" class="bds_more" data-cmd="more"></a>
+                        <a title="分享到QQ空间" href="#" class="bds_qzone" data-cmd="qzone"></a>
+                        <a title="分享到新浪微博" href="#" class="bds_tsina" data-cmd="tsina"></a>
+                       <a title="分享到腾讯微博" href="#" class="bds_tqq" data-cmd="tqq"></a>
+                        <a title="分享到人人网" href="#" class="bds_renren" data-cmd="renren"></a>
+                        <a title="分享到微信" href="#" class="bds_weixin" data-cmd="weixin"></a>
+                    </div>
+                    <script>
+                    window._bd_share_config = {
+                        "common": {
+                           "bdSnsKey": {},
+                           "bdText": "",
+                            "bdMini": "2",
+                            "bdMiniList": false,
+                            "bdPic": "",
+                            "bdStyle": "0",
+                            "bdSize": "16"
+                        },
+                        "share": {},
+                        "image": {
+                            "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"],
+                            "viewText": "分享到：",
+                            "viewSize": "16"
+                        },
+                        "selectShare": {
+                            "bdContainerClass": null,
+                            "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]
+                        }
+                   };
+                    with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+                    </script>
+                </div>
+                <div class="content">
+                    <p class="img"><img src="kb.jpg" alt="图片"></p>
+                    <p class="first-p">
+                    <i>第</i>
+
+                    <p>近期，在体育圈引起社会关注最多的莫过于科比布莱恩特的退役，一时间，不仅仅是科蜜，仿佛全民都开始关注科比。 而在科技圈引起社会关注最多的当属VR了。因此VR版科比退役纪录片应运而生，《曼走》VR版“UeyeVR记录科比退役日”在新浪体育版块播放后，引起热烈反响。</p>
+                    <p>4月14日，科比以60分完美结束了职业生涯的最后一场比赛，科比正式退役，但一想到下一个赛季湖人队球员大名单里再也不会出现“科比布莱恩”，心里还是空空的，科比伴随了一代人的青春。我们计划用特别的方式纪念我们的青春。</p>
+                    <p>创立于洛杉矶的UeyeVR团队对湖人队，对科比有着特殊的情怀。除了斯台普斯的内场，他们也以独特的视角记录着洛杉矶的一天。</p>
+                    <p>位于斯台普斯附近画有科比的涂鸦墙让人过目不忘。墙上写着Los Angeles Culture（洛杉矶文化）2009-2011赛季，科比带领湖人队杀进总决赛。即使之后面对实力相当的宿敌凯尔特人队，湖人队仍然成功卫冕冠军。只要有科比在，想‘Beat LA’？别做梦了！
+                   </p>
+                   
+               </div>
+                <!-- 多说评论框 start -->
+                <div class="ds-thread" data-thread-key="3860bd9141025e6e9bb745f95eedd4d4" data-title="请替换成文章的标题" data-url="请替换成文章的网址">
+                </div>
+                <!-- 多说评论框 end -->
+                <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+                <script type="text/javascript">
+               var duoshuoQuery = {
+                    short_name: "adamyang2006"
+                };
+                (function() {
+                    var ds = document.createElement('script');
+                    ds.type = 'text/javascript';
+                    ds.async = true;
+                    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+                    ds.charset = 'UTF-8';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+                })();
+
+               </script>
+                <!-- 多说公共JS代码 end -->
+               <div id="jpg">
+                <img src=""  alt="广告图片" />
+
+          </div>
+           </div>
+            <div class="aside">
+                <div class="aside-ad"><img src="tp4.jpg" hspace="10" vspace="10" alt="宁波论坛"></div>
+               <div id="line" class=letter></div>
+                <h3>
+                <a target="_blank">你可能喜欢</a>
+                </h3>
+                <div class="data" style="display:block">
+                <p style="color:red;"><marquee>暂时没有为您推荐的文章，请坚持阅读的好习惯！</marquee></p>
+                </div>
+                <div id="line" class=letter>
+                
+                </div>
+
+            </div>
+
+            <div id="article">
+                <h3 id="hot">十大热门文章</h3>
+                 <ol  style=color:red;class="wen">
+                     <li><a target="_blank" href="#">库里还能继续日天吗</a></li>
+                     <li><a target="_blank" href="#">奥尼尔与巴克利的逗比人生</a></li>
+                     <li><a target="_blank" href="#">火箭队的未来何去何从</a></li>
+                     <li><a target="_blank" href="#">NBA新时代乔丹</a></li>
+                     <li><a target="_blank" href="#">三分线的小球时代</a></li>
+                     <li><a target="_blank" href="#">科比退役引发的NBA地震 </a></li>
+                     <li><a target="_blank" href="#">腾讯从中国移动支付大战中后撤 </a></li>
+                     <li><a target="_blank" href="#">追梦格林究竟是脏比还是英雄 </a></li>
+                     <li><a target="_blank" href="#">后科比时代谁是科比的继承人？ </a></li>
+                     <li><a target="_blank" href="#">看不见的三角进攻</a></li>
+                     <li><a target="_blank" href="#">雷霆双少下赛季能否并肩作战 </a><br/></li>
+                     <a class=more-topics href="#">更多排行榜</a>
+                        <br></br>
+
+
+                 </ol>
+                 
+                 </div>
+
+
+                  
+            </div>
+             <div id="underline">
+                     
+                     <hr  size="12" color="red" align="left"></hr>
+                 </div>
+                 <div id="img1">
+                 <img src="tp5.jpg" alt="图片" hspace="10" width="300"
+                 height="300" />
+</div>
+<hr  size="12" color="red" align="left"></hr>
+<div id="site" class="one">
+<hr  size="12" color="red" align="left"></hr>
+<h3><a href="#"></a>评论最多的文章</h3>
+<ol>
+<li>
+<a target="_blank" href="#">广交会见证中国出口商忧郁心情</a>
+</li>
+<li>
+<a target="_blank" href="#">世界“霍布斯化”风险与中国抉择</a>
+</li><li>
+<a target="_blank" href="#">中国经济改革正步入险境？</a>
+</li><li>
+<a target="_blank" href="#">中国楼市可借鉴德国经验</a>
+</li><li>
+<a target="_blank" href="#">沙特要改革？别搞笑了</a>
+</li><li>
+<a target="_blank" href="#">从特朗普回看“五四”：中美历史的变奏</a>
+</li><li>
+<a target="_blank" href="#">多名共和党大佬表态不支持特朗普 </a>
+</li><li>
+<a target="_blank" href="#">中国债券再爆违约 突显信贷风险</a>
+</li><li>
+<a target="_blank" href="#">朝鲜时隔36年再开党代会的几大看点</a>
+</li><li>
+<a target="_blank" href="#">特朗普威胁上台后换掉美联储主席耶伦 </a>
+</li><li>
+
+<a class=more-topics href="#">更多排行榜</a>
+                        <br></br>
+</ol>
+</div>
+        </div> <div id="line" class=letter></div>
+        
+
+       
+        <div id="footer">
+            <div id="footer-content">
+            <ul>
+   
+            <li>
+     zz       <a href="#">关于我们</a>
+            <a href="#">加入我们</a>
+            <a href="#">联系方式</a>
+            <a href="#">问题反馈</a>
+            <a href="#">合作伙伴</a>
+            <a href="#">服务条款</a>
+            <a href="#">版权声明</a>
+            <a href="#">最新动态</a>
+            <a href="#">广告业务</a>
+            
+            </li>
+            </ul>
+            <span><strong>© The Financial Times Ltd 2016 FT and 'Financial Times' are trademarks of The Financial Times Ltd.</strong> </span>
+        </div>
+        
+    </div>
+</body>
+
+</html>
